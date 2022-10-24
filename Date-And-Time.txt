@@ -1,0 +1,44 @@
+question 1 :
+
+from datetime import datetime
+
+Question 2 
+
+from datetime import datetime
+
+now = datetime.now()
+
+print datetime.now()
+
+Question 3
+
+from datetime import datetime
+
+now = datetime.now()
+
+print now.year
+print now.month
+print now.day
+
+Question 4 : 
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d/%02d/%04d' % (now.month, now.day, now.year)
+
+Question 5 :
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d-%02d-%04d' % (now.month, now.day, now.year)
+
+print '%02d:%02d:%02d' % (now.hour, now.minute, now.second)
+
+Question 6 :
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
